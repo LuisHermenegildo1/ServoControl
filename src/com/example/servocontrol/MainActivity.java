@@ -67,8 +67,8 @@ import android.widget.Toast;
 		mArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
 		setListAdapter(mArrayAdapter);
 		
-		//buttonToggle = (Button) findViewById(R.id.btToggle);
-		//buttonToggle.setOnClickListener(buttonToggleOnClickListener);
+		buttonToggle = (Button) findViewById(R.id.btToggle);
+		buttonToggle.setOnClickListener(buttonToggleOnClickListener);
     }
 
     
